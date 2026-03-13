@@ -36,7 +36,7 @@ XGBoost              0.9189  0.9595  0.2646  0.2961  0.8080
 ### Visualizations for Interpretability and Comparison
 
 1.  **Precision-Recall Curves**
-
+![Risk Profile Plot](P1.png)
 2.  **SHAP (SHapley Additive exPlanations) Summary Plots**
 
 3.  **ROC AUC Curves**
