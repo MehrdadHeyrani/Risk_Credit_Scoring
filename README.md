@@ -88,6 +88,8 @@ The `report` dataframe provides a clear comparison of all models across the defi
 
 ### Visualizations for Interpretability and Comparison
 
+<img src="cs_dash.png" alt="Risk Profile Plot" width="500" align="center"/>
+
 1.  **Precision-Recall Curves**
 
 2.  **SHAP (SHapley Additive exPlanations) Summary Plots**
