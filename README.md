@@ -26,33 +26,6 @@ Each model's performance is assessed using a comprehensive set of metrics crucia
 The `report` dataframe provides a clear comparison of all models across the defined metrics. For example:
 
 ```
-╔═══════════════════════════════════════════════════════════════════╗
-║  ENTERPRISE CREDIT SCORING SYSTEM — STARTING PIPELINE            ║
-╚═══════════════════════════════════════════════════════════════════╝
-
-[1/9] Simulating realistic credit portfolio (150k accounts)…
-  Simulating 150,000 credit accounts with realistic distributions...
-      Default rate: 9.84%  |  Avg FICO: 726  |  Avg DTI: 40.1%
-[2/9] Computing Information Value (WoE/IV analysis)…
-      Top feature by IV: past_delinquencies (IV=0.4968)
-[3/9] Engineering features…
-      Feature matrix: (150000, 43)  |  Default: 9.84%
-[4/9] Splitting data (70/15/15 train/val/test)…
-      Train=105,000  Val=22,500  Test=22,500
-[5/9] Training 4 models…
-      Class weight ratio (0/1): 9.2x
-      [1/4] Logistic Regression (L2, class-balanced)…   AUC=0.8509  (1.3s)
-      [2/4] Random Forest (100 trees, depth=12)…   AUC=0.8344  (37.7s)
-      [3/4] Gradient Boosting (200 rounds)…   AUC=0.8447  (306.3s)
-      [4/4] Hist-Gradient Boosting (LightGBM-equiv, 300 rounds)…   AUC=0.8451  (10.6s)
-[6/9] 5-Fold Cross-Validation on best model…
-      Best model: Logistic Reg (Calibrated)
-      CV AUC: 0.8373 ± 0.0040  (0.8332 – 0.8435)
-[7/9] Computing feature importance (Random Forest)…
-[8/9] Computing Population Stability Index (PSI)…
-      PSI = 0.00023  (Stable)
-[9/9] Running business analytics (EL, scorecard, dashboard)…
-
 ══════════════════════════════════════════════════════════════════════════════
   ENTERPRISE CREDIT SCORING SYSTEM  ·  MODEL VALIDATION REPORT
 ══════════════════════════════════════════════════════════════════════════════
