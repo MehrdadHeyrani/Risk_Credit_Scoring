@@ -90,16 +90,4 @@ The `report` dataframe provides a clear comparison of all models across the defi
 
 <img src="cs_dash.png" alt="Risk Profile Plot" width="1500" align="center"/>
 
-1.  **Precision-Recall Curves**
 
-2.  **SHAP (SHapley Additive exPlanations) Summary Plots**
-
-<img src="cs2.png" alt="Risk Profile Plot" width="500" align="center"/>
-
-4.  **ROC AUC Curves**
-
-<img src="cs1.png" alt="Risk Profile Plot" width="500" align="center"/>
-
-5.  **3D Prediction Surfaces**
-   
-<img src="cs3.png" alt="Risk Profile Plot" width="500" align="center"/>
